@@ -8,6 +8,10 @@ public class RationalClient {
         // of the numerator and denominator directly
         System.out.println(r.numerator);
         System.out.println(r.denominator);
+        
+        // Call code to simplify the fraction
+        Rational u = new Rational(6, 24);
+        System.out.println(Rational.simplify(u));
 
         // Rational s = new Rational(1, 3);
         // System.out.println(s);
