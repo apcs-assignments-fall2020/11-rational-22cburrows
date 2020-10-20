@@ -10,9 +10,10 @@ public class RationalClient {
         System.out.println(r.denominator);
         
         // Call code to simplify the fraction
-        Rational u = new Rational(6, 24);
-        System.out.println(Rational.simplify(u));
+        // Rational u = new Rational(6, 24);
+        // System.out.println(Rational.simplify(u));
 
+        // Call code to add two fractions
         // Rational s = new Rational(1, 3);
         // System.out.println(s);
         // Rational t = Rational.add(r, s);
